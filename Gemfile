@@ -13,7 +13,7 @@ gem 'slim-rails'
 gem 'devise'
 gem 'cancan'
 gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails', github: 'anjlab/bootstrap-rails'
-
+gem 'simple_form'
 
 group :doc do
   gem 'sdoc', require: false

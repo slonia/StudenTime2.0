@@ -12,3 +12,17 @@
  *= require_tree .
  */
 @import "twitter/bootstrap";
+
+body {
+  height: 100%;
+  background: url('/assets/background.png');
+  margin-top: 5px;
+}
+
+.main > div {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+.content {
+  padding: 5px;
+  background-color: $gray-lighter;
+}
